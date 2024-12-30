@@ -32,7 +32,7 @@ Api de compra de cupones(Nivel 2)
   . mvn compile
 - Luego corra la aplicación,deberá verse como la imagen a continuación:
 
-![]()
+![](https://github.com/MiguelFuquene1024/purchase-v2-coupon-api/blob/master/img/EjecucionV2.png)
 
 
 - Esta Api tendrá una funcionalidades principal:
@@ -48,13 +48,13 @@ Api de compra de cupones(Nivel 2)
 - Ahora para probar el servicio ingrese a postman , cree una nueva petición de tipo GET, pegue la siguiente url (http://localhost:8080/top5) y envie el request.
 - La respuesta se evidenciara en la imagen:
 
-![]()
+![](https://github.com/MiguelFuquene1024/purchase-v2-coupon-api/blob/master/img/localV2.png)
 
 ## Prueba por el navegador
 
 - Para probar el servicio expuesto en AWS cambie o cree un nuevo request con la siguiente url (http://lb-aws-api-v2-1214868143.us-east-1.elb.amazonaws.com/top5) y envie el request.
 - Debe responder como se muestra en la imagen.
 
-![]()
+![](https://github.com/MiguelFuquene1024/purchase-v2-coupon-api/blob/master/img/PruebaAWSV2.png)
 
 
