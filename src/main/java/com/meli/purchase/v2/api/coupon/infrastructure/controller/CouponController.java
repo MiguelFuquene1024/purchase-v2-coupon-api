@@ -19,7 +19,7 @@ public class CouponController {
     public Mono<Map<String,Integer>> getTop5Coupon() {
         return couponService.getTop5Coupons();
     }
-    @GetMapping
+    @GetMapping("/")
     public Mono<ResponseEntity<String>> getHealthCheck() {
         return Mono.just(ResponseEntity.ok("health check ok"));
     }
