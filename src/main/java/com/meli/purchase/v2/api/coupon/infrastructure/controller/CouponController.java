@@ -21,7 +21,7 @@ public class CouponController {
     }
     @GetMapping("/")
     public Mono<ResponseEntity<String>> getHealthCheck() {
-        return Mono.just(ResponseEntity.ok("health check ok"));
+        return Mono.just(ResponseEntity.ok("health check ok."));
     }
 
 }
