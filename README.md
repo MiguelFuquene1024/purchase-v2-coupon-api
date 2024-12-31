@@ -50,6 +50,8 @@ Api de compra de cupones(Nivel 2)
 
 ![](https://github.com/MiguelFuquene1024/purchase-v2-coupon-api/blob/master/img/localV2.png)
 
+- Si quiere tambien puede guiarse tambien de la documentacion swagger que sale accediendo a la siguiente url (http://lb-aws-api-v2-1214868143.us-east-1.elb.amazonaws.com/webjars/swagger-ui/index.html)
+
 ## Prueba por el navegador
 
 - Para probar el servicio expuesto en AWS cambie o cree un nuevo request con la siguiente url (http://lb-aws-api-v2-1214868143.us-east-1.elb.amazonaws.com/top5) y envie el request.
